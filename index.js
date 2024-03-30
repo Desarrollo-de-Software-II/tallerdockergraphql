@@ -7,6 +7,7 @@ const typeDefs = gql`
   type Query {
     hello(message: String!): String 
     aboutYhanC: String
+    aboutKevinV: String
   }
 `;
 
@@ -21,6 +22,9 @@ const resolvers = {
         me encanta aprender cosas nuevas, mi sueño frustado es ser fisico y me apasionan los robots y la IA, me gusta el arte pero
         lamentablemente no sé dibujar a mano alzada y mi pintor favorito es Vincent van Gogh`;
       }, 
+    AboutKevinV: () => {
+        return `Soy Kevin Velez y en mi tiempo suelo jugar Ajedrez. Mis juegos digitales favoritos son Terraria y Brawl Stars`;
+      }
   },
 };
 
