@@ -8,6 +8,7 @@ const typeDefs = gql`
     hello(message: String!): String 
     aboutYhanC: String
     aboutKevinV: String
+    aboutMorenoMiguelAngel: String
   }
 `;
 
@@ -24,6 +25,10 @@ const resolvers = {
       }, 
     AboutKevinV: () => {
         return `Soy Kevin Velez y en mi tiempo suelo jugar Ajedrez. Mis juegos digitales favoritos son Terraria y Brawl Stars`;
+      },
+    AboutMorenoMiguelAngel: () => {
+        return `Mi nombre es Moreno Miguel, suelo decir mucho "gente madrugadora", 
+        me gusta la bioinformática, y el único deporte que me gusta es patinaje`;
       }
   },
 };
