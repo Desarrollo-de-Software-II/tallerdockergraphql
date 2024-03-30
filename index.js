@@ -5,7 +5,8 @@ const path = require('path');
 // Define el esquema de GraphQL
 const typeDefs = gql`
   type Query {
-    hello(message: String!): String
+    hello(message: String!): String 
+    aboutYhanC: String
   }
 `;
 
@@ -15,6 +16,11 @@ const resolvers = {
     hello: (_, { message }) => {
         return `¡Hola, ${message}! Un saludo por parte del profe `;
       },
+    AboutYhanC: () => {
+        return `Soy Yhan Carlos Trujillo, me gusta el baloncesto, mi saga favorita es Harry Potter, me encanta el anime, no me gustan las redes sociales, 
+        me encanta aprender cosas nuevas, mi sueño frustado es ser fisico y me apasionan los robots y la IA, me gusta el arte pero
+        lamentablemente no sé dibujar a mano alzada y mi pintor favorito es Vincent van Gogh`;
+      }, 
   },
 };
 
