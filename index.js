@@ -6,6 +6,7 @@ const path = require('path');
 const typeDefs = gql`
   type Query {
     hello(message: String!): String
+    AboutKevinV: String
   }
 `;
 
@@ -14,6 +15,9 @@ const resolvers = {
   Query: {
     hello: (_, { message }) => {
         return `¡Hola, ${message}! Un saludo por parte del profe `;
+      },
+    AboutKevinV: () => {
+        return `Soy Kevin Velez y en mi tiempo libre suelo jugar ajedrez. Mis juegos digitales favoritos son Terraria y Brawl Stars.`;
       },
   },
 };
