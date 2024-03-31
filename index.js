@@ -6,9 +6,10 @@ const path = require('path');
 const typeDefs = gql`
   type Query {
     hello(message: String!): String 
-    aboutYhanC: String
-    aboutKevinV: String
-    aboutMorenoMiguelAngel: String
+    AboutYhanC: String
+    AboutKevinV: String
+    AboutMorenoMiguelAngel: String
+    AboutJuanCifuentes: String
   }
 `;
 
@@ -29,7 +30,11 @@ const resolvers = {
     AboutMorenoMiguelAngel: () => {
         return `Mi nombre es Moreno Miguel, suelo decir mucho "gente madrugadora", 
         me gusta la bioinformática, y el único deporte que me gusta es patinaje`;
-      }
+      },
+    AboutJuanCifuentes: () => {
+        return `Mi nombre es Juan Cifuentes, y llevo 10 semestres en esta universidad, 
+        me gusta jugar LOL (mentiras, lo odio)`;
+      },
   },
 };
 
