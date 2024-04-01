@@ -13,6 +13,7 @@ const typeDefs = gql`
     AboutDavidUrrego: String
     AboutEmanuelRivas : String
     AboutSantiagoDuque : String
+    AboutAndresZapata: String
   }
 `;
 
@@ -50,6 +51,11 @@ const resolvers = {
         return `Hola, soy Santiago Duque. Me gustan mucho los videojuegos, aunque no tengo un género preferido muy claro. Algunos de mis juegos
         favoritos son Hollow Knight y XCOM 2. También me gusta mucho la música, especialmente las canciones de Kendrick Lamar y Kanye West.
         Fuera de la ingeniería de sistemas, me llaman mucho la atención la Física y la Química`;
+      },
+      AboutAndresZapata: () => {
+        return `Mi nombre es Andrés, mi pasatiempo favorito es bailar salsa, actualmente pertenezco a la selección de salsa de la 
+      Universidad donde hemos ganado regionales y nacionales. Hice un semestre en la tecnología de sistemas y al siguiente me 
+      pasé a la ingeniería, lo cual era mi sueño. :)`;
       },
   },
 };
