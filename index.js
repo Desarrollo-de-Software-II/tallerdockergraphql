@@ -11,6 +11,7 @@ const typeDefs = gql`
     AboutMorenoMiguelAngel: String
     AboutJuanCifuentes: String
     AboutDavidUrrego: String
+    AboutEmanuelRivas : String
   }
 `;
 
@@ -41,6 +42,9 @@ const resolvers = {
         estrategia desde ajedrez hasta Age of Empires o Total War; Disfruto charlar sobre historia
         y filosofía`;
       },
+      AboutEmanuelRivas: () => {
+        return `¡Hola, Soy Emanuel A. Rivas, de pequeño me rompí la cabeza jugando jasja. En mi tiempo libre me gusta leer sobre filosofía y música, mis autores favoritos son Kafka, Camus y Dostoesvky`;
+      },  
   },
 };
 
