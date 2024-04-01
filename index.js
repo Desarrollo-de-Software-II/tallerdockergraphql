@@ -10,6 +10,7 @@ const typeDefs = gql`
     AboutKevinV: String
     AboutMorenoMiguelAngel: String
     AboutJuanCifuentes: String
+    AboutDavidUrrego: String
   }
 `;
 
@@ -34,6 +35,11 @@ const resolvers = {
     AboutJuanCifuentes: () => {
         return `Mi nombre es Juan Cifuentes, y llevo 10 semestres en esta universidad, 
         me gusta jugar LOL (mentiras, lo odio)`;
+      },
+      AboutDavidUrrego: () => {
+        return `Mi nombre es David Urrego, bebo unas diez tazas de café al día, me gustan los juegos de
+        estrategia desde ajedrez hasta Age of Empires o Total War; Disfruto charlar sobre historia
+        y filosofía`;
       },
   },
 };
