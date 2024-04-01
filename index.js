@@ -50,7 +50,7 @@ const resolvers = {
         return `Hola, soy Santiago Duque. Me gustan mucho los videojuegos, aunque no tengo un género preferido muy claro. Algunos de mis juegos
         favoritos son Hollow Knight y XCOM 2. También me gusta mucho la música, especialmente las canciones de Kendrick Lamar y Kanye West.
         Fuera de la ingeniería de sistemas, me llaman mucho la atención la Física y la Química`;
-      }
+      },
   },
 };
 
