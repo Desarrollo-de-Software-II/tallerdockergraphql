@@ -10,6 +10,7 @@ const typeDefs = gql`
     AboutKevinV: String
     AboutMorenoMiguelAngel: String
     AboutJuanCifuentes: String
+    AboutAndresZapata: String
   }
 `;
 
@@ -35,6 +36,11 @@ const resolvers = {
         return `Mi nombre es Juan Cifuentes, y llevo 10 semestres en esta universidad, 
         me gusta jugar LOL (mentiras, lo odio)`;
       },
+    AboutAndresZapata: () => {
+      return `Mi nombre es Andrés, mi pasatiempo favorito es bailar salsa, actualmente pertenezco a la selección de salsa de la 
+      Universidad donde hemos ganado regionales y nacionales. Hice un semestre en la tecnología de sistemas y al siguiente me 
+      pasé a la ingeniería, lo cual era mi sueño. :)`;
+    }
   },
 };
 
