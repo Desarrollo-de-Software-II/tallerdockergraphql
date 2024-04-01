@@ -12,6 +12,7 @@ const typeDefs = gql`
     AboutJuanCifuentes: String
     AboutDavidUrrego: String
     AboutEmanuelRivas : String
+    AboutSantiagoDuque : String
   }
 `;
 
@@ -44,7 +45,12 @@ const resolvers = {
       },
       AboutEmanuelRivas: () => {
         return `¡Hola, Soy Emanuel A. Rivas, de pequeño me rompí la cabeza jugando jasja. En mi tiempo libre me gusta leer sobre filosofía y música, mis autores favoritos son Kafka, Camus y Dostoesvky`;
-      },  
+      },
+      AboutSantiagoDuque: () => {
+        return `Hola, soy Santiago Duque. Me gustan mucho los videojuegos, aunque no tengo un género preferido muy claro. Algunos de mis juegos
+        favoritos son Hollow Knight y XCOM 2. También me gusta mucho la música, especialmente las canciones de Kendrick Lamar y Kanye West.
+        Fuera de la ingeniería de sistemas, me llaman mucho la atención la Física y la Química`;
+      }
   },
 };
 
